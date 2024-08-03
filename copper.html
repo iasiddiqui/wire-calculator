@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wire Calculation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="calculator.png" type="image/x-icon">
+</head>
+<body>
+    <div class="contain_copper">
+        <h1>Wire Weight Calculator</h1>
+        <form id="wireForm">
+                        
+            <label for="density">Wire Density (kg/cm³):</label>
+            <input type="number" id="density" name="density" step="0.0001" required>
+            
+            <label for="size">Wire Size (mm):</label>
+            <input type="number" id="size" name="size" step="0.01" required>
+            
+            <label for="length">Drawn Length (km):</label>
+            <input type="number" id="length" name="length" step="0.01" required>
+            
+            <label for="bobbin">Number of Bobbins:</label>
+            <input type="number" id="bobbin" name="bobbin" step="0.01" required>
+            
+            <button type="button" onclick="calculateWeight()">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <footer>
+        &copy; 2024 Wire Weight Calculator. All Rights Reserved by <a href="https://www.linkedin.com/in/ihaan-ahmad-siddiqui-86b9a9175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">@Ihaan</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
