@@ -69,13 +69,14 @@ body {
     
 }
 
-h1 {
+#select {
     font-size: 3vw;
     margin-bottom: 20px;
     text-align: center;
     color: black;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.798); /* X offset, Y offset, blur radius, color */
 }
+
 .wire-options {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +132,14 @@ footer {
     width: 300px;
     color: white;
 }
+.contain_copper #copper {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 
+}
 
 a {
     color: white;
